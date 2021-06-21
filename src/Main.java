@@ -15,6 +15,8 @@
 import Course1.Week3.ExportData;
 import Course1.Week3.WeatherData;
 import Course1.Week4.BabyNames;
+import Course2.Week1.CaesarCipher;
+import Course2.Week1.WordPlay;
 
 public class Main {
 
@@ -69,10 +71,21 @@ public class Main {
 //        weather.testAverageTemperatureWithHighHumidityInFile();
 
         // Course 1 - Week 4
-        BabyNames babyNames = new BabyNames();
+//        BabyNames babyNames = new BabyNames();
 //        babyNames.testTotalBirths();
 //        babyNames.testGetRank();
 //        babyNames.testGetName();
-        babyNames.testWhatIsNameInYear();
+//        babyNames.testWhatIsNameInYear();
+
+        // Course 2 - Week 1
+
+//        WordPlay wp = new WordPlay();
+//        wp.testIsVowel();
+//        wp.testReplaceVowels();
+//        wp.testEmphasize();
+
+        CaesarCipher cp = new CaesarCipher();
+        //        cp.testEncrypt();
+        cp.testEncryptTwoKeys();
     }
 }
