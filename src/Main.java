@@ -15,7 +15,9 @@
 import Course1.Week3.ExportData;
 import Course1.Week3.WeatherData;
 import Course1.Week4.BabyNames;
+import Course2.Week1.CaesarBreaker;
 import Course2.Week1.CaesarCipher;
+import Course2.Week1.WordLengths;
 import Course2.Week1.WordPlay;
 
 public class Main {
@@ -84,8 +86,15 @@ public class Main {
 //        wp.testReplaceVowels();
 //        wp.testEmphasize();
 
-        CaesarCipher cp = new CaesarCipher();
+//        CaesarCipher cp = new CaesarCipher();
         //        cp.testEncrypt();
-        cp.testEncryptTwoKeys();
+//        cp.testEncryptTwoKeys();
+
+//        WordLengths wl = new WordLengths();
+//        wl.testCountWordLengths();
+
+        CaesarBreaker cb = new CaesarBreaker();
+//        cb.testDecryptString();
+        cb.testDecryptTwoKeys();
     }
 }
