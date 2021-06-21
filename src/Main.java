@@ -19,6 +19,7 @@ import Course2.Week1.CaesarBreaker;
 import Course2.Week1.CaesarCipher;
 import Course2.Week1.WordLengths;
 import Course2.Week1.WordPlay;
+import Course2.Week2.*;
 
 public class Main {
 
@@ -93,8 +94,26 @@ public class Main {
 //        WordLengths wl = new WordLengths();
 //        wl.testCountWordLengths();
 
-        CaesarBreaker cb = new CaesarBreaker();
+//        CaesarBreaker cb = new CaesarBreaker();
 //        cb.testDecryptString();
-        cb.testDecryptTwoKeys();
+//        cb.testDecryptTwoKeys();
+
+//        WordFrequencies wf = new WordFrequencies();
+//        wf.tester();
+
+//        CharactersInPlay cp = new CharactersInPlay();
+//        cp.tester();
+
+//        CodonCount cc = new CodonCount();
+//        cc.tester();
+
+//        WordsInFiles wif = new WordsInFiles();
+//        wif.tester();
+
+//        GladLib gl = new GladLib();
+//        gl.makeStory();
+
+        GladLibMap glm = new GladLibMap();
+        glm.makeStory();
     }
 }
