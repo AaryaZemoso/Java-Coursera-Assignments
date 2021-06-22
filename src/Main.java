@@ -20,6 +20,7 @@ import Course2.Week1.CaesarCipher;
 import Course2.Week1.WordLengths;
 import Course2.Week1.WordPlay;
 import Course2.Week2.*;
+import Course2.Week3.Tester;
 
 public class Main {
 
@@ -113,7 +114,11 @@ public class Main {
 //        GladLib gl = new GladLib();
 //        gl.makeStory();
 
-        GladLibMap glm = new GladLibMap();
-        glm.makeStory();
+//        GladLibMap glm = new GladLibMap();
+//        glm.makeStory();
+
+        // Course 2 - Week 3
+        Tester t = new Tester();
+        t.testLogAnalyzer();
     }
 }
